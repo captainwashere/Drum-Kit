@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Unna:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Unna', serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(img/music-player-2951399.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    color: white;
+    font-size: 5vw;
+}
+.key1{
+    height: 6vw;
+    width: 6vw;
+    background-color: #36454F;
+    text-align: center;
+    border-radius: 7px;
+    line-height: 6vw;
+    transition: width 1s ,height 1s, transform 1s ;
+    
+}
+.key1:hover{
+    height: 6vw;
+    width: 6vw;
+    transform:rotate(360deg);
+    
+}
+.key{
+    display:flex;
+    justify-content: space-evenly;
+    height: 70vh;
+    align-items: end;
+    
+}
+.key1 span{
+    display: block;
+    font-size: 2vw;
+
+}
+.position{
+    position: absolute;
+}
